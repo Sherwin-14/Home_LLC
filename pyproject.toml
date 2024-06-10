@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "home-prices-predictor"
+version = "1.0.0"
+description = "home price predictor for US"
+authors = ["Sherwin-14 <varghesesheriwn@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "1.25.2"
+pandas = "2.0.3"
+scikit-learn = "1.2.0"
+
+[tool.poetry.group.dev.dependencies]
+
+plotly = "^5.22.0"
+
+streamlit = "^1.35.0"
+joblib = "^1.4.2"
+xgboost = "^2.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
